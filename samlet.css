@@ -1,3 +1,16 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /*************** Menu ****************/
 @media (max-width: 1200px) {
   header {
@@ -27,20 +40,28 @@ footer {
 }
 
 h1 {
+  font-family: "Cinzel", serif;
+  font-size: 2rem;
   padding: 15px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 h2 {
+  font-family: "Carrois Gothic SC", sans-serif;
+  font-size: 1.5rem;
   padding: 10px;
 }
 
 h3 {
+  font-family: "Carrois Gothic SC", sans-serif;
+  font-size: 1.2rem;
   padding: 10px;
 }
 
 p {
+  font-family: "Quattrocento", serif;
+  font-size: 1.2rem;
   padding: 10px;
 }
 img {
