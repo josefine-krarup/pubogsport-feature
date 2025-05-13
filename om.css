@@ -1,0 +1,10 @@
+li {
+  margin-left: 30px;
+}
+
+.facade_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+}
