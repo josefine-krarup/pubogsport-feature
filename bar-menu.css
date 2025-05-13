@@ -1,0 +1,45 @@
+.barmenu {
+  margin-left: 15px;
+}
+
+.Fadøl {
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.flaske {
+  margin-left: 20px;
+  margin-top: 200px;
+  margin-bottom: 90px;
+}
+
+.fadøl-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  text-align: center;
+}
+
+.sanmiguel {
+  width: 110%;
+}
+
+.flaskeøl-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0px;
+  text-align: center;
+}
+
+.classic {
+  width: 32%;
+}
+.carlsberg {
+  width: 32%;
+}
+.heineken {
+  width: 42%;
+}
+.alkoholfri {
+  width: 31%;
+}
