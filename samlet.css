@@ -19,7 +19,7 @@ img {
 }
 /************* Style **************/
 main {
-  max-width: 1600px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 header {
@@ -64,8 +64,52 @@ p {
   font-size: 1.2rem;
   padding: 10px;
 }
+
+li {
+  font-family: "Quattrocento", serif;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
 img {
   padding: 15px;
+}
+
+/************** Footer **************/
+.footer_1-1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer_imgs {
+  display: flex;
+  flex-direction: column;
+}
+
+.lokation img {
+  width: 85%;
+  height: auto;
+}
+
+.SoMe_grid {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: auto;
+}
+
+.SoMe_grid img {
+  width: 90px;
+  height: auto;
+}
+
+.trustpilot {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.trustpilot img {
+  width: 200px;
+  height: auto;
 }
 
 /********** Burger Menu ************/
