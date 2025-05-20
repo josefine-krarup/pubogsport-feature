@@ -1,6 +1,12 @@
-.grid_1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  width: 60%;
+.topiger img {
+  width: 100%;
+}
+
+@media (min-width: 750px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 60%;
+  }
 }
