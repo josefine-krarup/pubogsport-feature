@@ -20,11 +20,22 @@
 
 <body>
     <header>
+        <div class="logo">
+            <a href="index.html"><img src="imgs/logo.webp" alt="Logo"></a>
+        </div>
         <nav>
             <ul class="menu">
                 <li><a href="index.html">Forside</a></li>
                 <li><a href="bar-menu.html">Bar menu</a></li>
-                <li><a href="aktiviteter.html">Aktiviteter</a></li>
+                <li class="has-dropdown">
+                    <p class="menu_drop">Aktiviteter</p>
+                    <ul class="dropdown">
+                        <li><a href="bordfodbold.html">Bordfodbold</a></li>
+                        <li><a href="braetspil.html">Brætspil</a></li>
+                        <li><a href="dart.html">Dart</a></li>
+                        <li><a href="pool.html">Pool</a></li>
+                    </ul>
+                </li>
                 <li><a href="booking.html">Booking</a></li>
                 <li><a href="om.html">Om Pub & Sport</a></li>
             </ul>
@@ -71,7 +82,42 @@
             stødballen.</p>
     </main>
 
-    <footer></footer>
+    <footer>
+        <section class="footer_1-1-1-1">
+            <div class="lokation">
+                <h2>Find os</h2>
+                <a
+                    href="https://www.google.com/maps/place/Vester+Voldgade+7,+1552+København/@55.6783242,12.5641449,17z/data=!3m1!4b1!4m6!3m5!1s0x4652530e5dc1cab3:0xa53c8684856e4629!8m2!3d55.6783242!4d12.5667198!16s%2Fg%2F11nnkwhym8?entry=ttu&g_ep=EgoyMDI1MDUxMS4wIKXMDSoASAFQAw%3D%3D"><img
+                        src="imgs/lokation.webp" alt="Lokation"></a>
+                <p>Vester Voldgade 7-9, 1552 København</p>
+            </div>
+            <div class="tider">
+                <h2>Åbningstider:</h2>
+                <ul>
+                    <li>Mandag-Torsdag: kl. 16-00</li>
+                    <li>Fredag: kl. 15-02</li>
+                    <li>Lørdag: kl. 12-02</li>
+                    <li>Søndag: kl. 12-00</li>
+                </ul>
+            </div>
+            <div class="kontakt">
+                <h2>Kontakt</h2>
+                <a href="mailto:mail@pubogsport.com">Mail: mail@pubogsport.com</a> <br>
+                <a href="tel:33150810">Tlf. +45 33150810</a>
+
+            </div>
+            <div class="footer_imgs">
+                <div class="trustpilot">
+                    <a href="https://dk.trustpilot.com/review/pubogsport.com" target="_blank"><img
+                            src="imgs/truspilot1.webp" alt="Trust pilot"></a>
+                </div>
+                <div class="SoMe_grid">
+                    <a href="https://www.instagram.com/pubogsport/"><img src="imgs/instagram.webp" alt="Instagram"></a>
+                    <a href="https://www.facebook.com/pubogsport"><img src="imgs/facebook.webp" alt="Facebook"></a>
+                </div>
+            </div>
+        </section>
+    </footer>
 
 
     <script src="menu.js"></script>

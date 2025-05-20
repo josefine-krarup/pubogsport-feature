@@ -17,6 +17,7 @@ img {
     display: none;
   }
 }
+
 /************* Style **************/
 main {
   max-width: 1200px;
@@ -25,7 +26,7 @@ main {
 header {
   background-color: white;
   margin-bottom: 30px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 body {
@@ -71,49 +72,152 @@ li {
   padding: 10px;
 }
 
+a {
+  color: black;
+  font-family: "Quattrocento", serif;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+a:hover,
+.menu_drop:hover {
+  color: #a60600;
+}
+
 img {
   padding: 15px;
 }
 
-/************** Footer **************/
+/*************** Mobil ****************/
 .footer_1-1-1-1 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 
-.footer_imgs {
+.tider ul {
+  list-style: none;
+}
+
+.trustpilot {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
 }
 
-.lokation img {
-  width: 85%;
+.trustpilot img {
+  width: 150px;
   height: auto;
 }
 
 .SoMe_grid {
   display: flex;
   justify-content: flex-end;
-  margin-top: auto;
 }
 
 .SoMe_grid img {
-  width: 90px;
+  width: 70px;
   height: auto;
 }
 
-.trustpilot {
+.footer_imgs {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
-.trustpilot img {
-  width: 200px;
-  height: auto;
+@media (min-width: 750px) {
+  /************** Footer **************/
+  .footer_1-1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .footer_imgs {
+    flex-direction: column;
+  }
+
+  .lokation img {
+    width: 85%;
+    height: auto;
+  }
+
+  .SoMe_grid {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .SoMe_grid img {
+    width: 90px;
+    height: auto;
+  }
+
+  .trustpilot {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .trustpilot img {
+    width: 200px;
+    height: auto;
+  }
+}
+/************ Drop down menu ***********/
+
+.menu p,
+a {
+  text-align: end;
 }
 
+ul .dropdown li {
+  list-style: none;
+}
+
+.dropdown p {
+  font-size: 0.8rem;
+}
+
+@media (min-width: 900px) {
+  .has-dropdown {
+    position: relative;
+  }
+  .dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    top: 80%;
+    left: 0%;
+    z-index: 10;
+    min-width: 160px;
+  }
+
+  .dropdown li a {
+    padding: 10px;
+    white-space: nowrap;
+  }
+
+  .has-dropdown:hover .dropdown,
+  .dropdown:hover {
+    display: block;
+  }
+
+  ul .dropdown li {
+    margin-right: 0;
+    list-style: none;
+  }
+
+  ul .dropdown li a {
+    text-align: left;
+  }
+}
 /********** Burger Menu ************/
+@media (max-width: 900px) {
+  header {
+    height: 90px;
+  }
 
+  .dropdown a {
+    font-size: 1rem;
+  }
+}
 header {
   position: sticky;
   top: 0;
@@ -121,6 +225,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  height: 100px;
 }
 
 .logo img {
@@ -187,7 +292,7 @@ nav {
 .burger {
   display: none;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .menu {
     display: none;
   }
@@ -222,9 +327,5 @@ nav {
 
   nav.active .menu li {
     margin: 10px 20px;
-  }
-
-  nav.active .menu a {
-    font-size: 24px;
   }
 }
