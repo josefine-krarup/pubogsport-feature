@@ -13,23 +13,35 @@
   }
 
   .sanmiguel {
-    width: 90%;
+    width: 105%;
+    margin-top: 15px;
   }
 
   .classic {
-    width: 32%;
+    width: 36%;
+    margin-left: 90px;
   }
 
   .carlsberg {
-    width: 32%;
+    width: 36%;
+    margin-left: 40px;
+  }
+
+  .guld {
+    width: 100%;
+    margin-left: 18px;
+    margin-top: 25px;
   }
 
   .heineken {
-    width: 42%;
+    width: 45%;
+    margin-left: 30px;
+    margin-top: 15px;
   }
 
   .alkoholfri {
-    width: 34%;
+    width: 38%;
+    margin-left: 85px;
   }
 }
 
@@ -58,6 +70,7 @@
 
   .sanmiguel {
     width: 110%;
+    margin-top: 17px;
   }
 
   .flaskeøl-container {
@@ -69,17 +82,22 @@
 
   .classic {
     width: 32%;
+    margin-left: 100px;
   }
 
   .carlsberg {
     width: 32%;
+    margin-left: 100px;
   }
 
   .heineken {
     width: 42%;
+    margin-left: 80px;
   }
 
   .alkoholfri {
     width: 32%;
+    margin-left: 100px;
+    margin-top: 15px;
   }
 }
