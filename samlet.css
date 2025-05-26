@@ -94,6 +94,10 @@ img {
   grid-template-columns: 1fr;
 }
 
+.lokation iframe {
+  width: 100%;
+}
+
 .tider ul {
   list-style: none;
 }
@@ -130,13 +134,12 @@ img {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
-  .footer_imgs {
-    flex-direction: column;
+  .lokation iframe {
+    width: 100%;
   }
 
-  .lokation img {
-    width: 85%;
-    height: auto;
+  .footer_imgs {
+    flex-direction: column;
   }
 
   .SoMe_grid {
